@@ -32,9 +32,10 @@ github_source_repository: "WorkstationAsCode/WAC"
 github_pages_repository: "WorkstationAsCode/WorkstationAsCode.github.io"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+
+markdown: GFM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
