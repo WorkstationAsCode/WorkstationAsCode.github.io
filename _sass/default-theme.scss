@@ -113,53 +113,77 @@ a {
   color: $header-heading-color;
   text-align: center;
   background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-image: linear-gradient(145deg, $header-bg-color, $header-bg-color-secondary);
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 1rem .5rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: .5rem 0.25rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: .25rem .12rem;
   }
 }
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0rem;
+  font-weight: normal;
+
+  a {
+    color: $header-heading-color;
+  }
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 2.1rem;
   }
 
   @include medium {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   @include small {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
+  }
+}
+
+.project-image {
+  vertical-align: -20%;
+
+  @include large {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  @include medium {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  @include small {
+    width: 2.4rem;
+    height: 2.4rem;
   }
 }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  margin-bottom: 0.2rem;
   font-weight: normal;
   opacity: 0.7;
 
   @include large {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   @include medium {
-    font-size: 1.15rem;
+    font-size: .85rem;
   }
 
   @include small {
-    font-size: 1rem;
+    font-size: .75rem;
   }
 }
 
@@ -374,9 +398,21 @@ a {
 
 .site-footer-owner {
   display: block;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .site-footer-credits {
   color: $blockquote-text-color;
+}
+
+.icon svg {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  margin: 0rem .5rem 0rem .5rem;
+
+  &:hover {
+    background-color: #c7c7ff;
+    border-radius: 15%;
+  }
 }

@@ -21,8 +21,8 @@
 title: WorkstationAsCode
 email: workstation.as.code@gmail.com
 description: >-
-  WorkstationAsCode (WAC) A tool to rebuilding a computer from scratch,
-  automatically, and mastering its configuration!
+  Enjoy life while your computer manages itself!
+
 domain: "workstationascode.github.io"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://workstationascode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
