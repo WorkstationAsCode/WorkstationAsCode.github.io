@@ -33,7 +33,7 @@ github_pages_repository: "WorkstationAsCode/WorkstationAsCode.github.io"
 
 # Build settings
 plugins:
-  - jekyll-feed
+  - jemoji
 
 markdown: GFM
 
