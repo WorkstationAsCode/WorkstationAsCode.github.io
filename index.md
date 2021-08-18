@@ -36,14 +36,14 @@ Code generated successfully into ~/.wac
 ```
 
 I should be confident about exporting sensible and private information like passwords,  private keys, connection tokens,
-web site credentials because they are stored in a highly secure encrypted format. So if the code is accidentally exposed
+website credentials because they are stored in a highly secure encrypted format. So if the code is accidentally exposed
 publicly, it should be impossible for someone to decrypt the sensible part without knowing my master password. But, to
 allow this, I accept to remember one and only one super-strong master password that I will never ever disclose. The only
 exception will be the master password of my password manager. I should never be confident enough to store it, even with
 the highest existing encryption format. So because I see no good reason to store a master password of a password manager
 on a computer's hard drive, then I will never have to export it (really don't do this).
 
-Each time I change the computer state, I want to generate the code difference describing the change and I can store this
+Each time I change the computer state, I want to generate the code difference describing the change, and I can store this
 code in a version control system. So when I want, thanks to my version control system, I can restore a previous code
 version and reapply it to restore a minor computer state change, automatically and reliably in a few minutes (non-related
 to OS kind and version)
@@ -78,6 +78,11 @@ I assume that:
 $ curl -s "https://get.wac.io" | bash
 $ wac install john-gamer-pc --from https://github.com/john/wac --to /dev/sdb
 ```
+
+### How to create this tool?
+
+Let's start by creating a proof of concept with a minimal scope to identify challenges:
+[Source code of the POC](https://github.com/WorkstationAsCode/wac)
 
 ## About
 
