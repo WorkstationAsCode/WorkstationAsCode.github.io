@@ -28,7 +28,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://workstationascode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "WorkstationAsC"
 github_username:  "WorkstationAsCode"
-github_source_repository: "WorkstationAsCode/WAC"
+github_source_repository: "WorkstationAsCode/wac"
 github_pages_repository: "WorkstationAsCode/WorkstationAsCode.github.io"
 
 # Build settings

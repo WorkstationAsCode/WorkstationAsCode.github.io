@@ -405,14 +405,19 @@ a {
   color: $blockquote-text-color;
 }
 
-.icon svg {
-  width: 2rem;
-  height: 2rem;
-  vertical-align: middle;
-  margin: 0rem .5rem 0rem .5rem;
+.icon {
+  a {
+    text-decoration: none;
+  }
+  svg {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+    margin: 0rem .5rem 0rem .5rem;
+    fill: #8472b4;
 
-  &:hover {
-    background-color: #c7c7ff;
-    border-radius: 15%;
+    &:hover {
+      fill: #ac97e1;
+    }
   }
 }

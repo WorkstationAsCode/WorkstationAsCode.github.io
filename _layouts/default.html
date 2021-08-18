@@ -29,8 +29,9 @@
       {{ content }}
 
       <footer class="site-footer">
-        <a href="https://github.com/{{ site.github_username }}"><span class="icon">{% include icon-github.svg %}</span></a>
-        <a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon">{% include icon-twitter.svg %}</span></a>
+        <span class="icon"><a href="https://twitter.com/{{ site.twitter_username }}">{% include icon-twitter.svg %}</a></span>
+        <span class="icon"><a href="https://github.com/{{ site.github_username }}">{% include icon-github.svg %}</a></span>
+        <span class="icon"><a href="https://github.com/{{ site.github_source_repository }}/discussions">{% include icon-discussions.svg %}</a></span>
       </footer>
     </main>
   </body>
